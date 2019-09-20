@@ -1,5 +1,5 @@
 name: 'foo-action'
-description: 'Does something. I haven't decided what yet'
+description: 'Does something. I have not decided what yet'
 author: WillAbides
 using: docker
 image: 'willabides/deleteme/octo-cli:0.1.0'
