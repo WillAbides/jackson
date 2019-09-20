@@ -5,4 +5,4 @@ jobs:
     name: ddddd
     runs-on: ubuntu-18.04
     steps:
-      - uses: actions/foo@master
+      - uses: ./.github/actions/foo
