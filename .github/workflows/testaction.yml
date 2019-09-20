@@ -1,1 +1,8 @@
-
+on: [push, pull_request, issues]
+name: foo
+jobs:
+  ddddd:
+    name: ddddd
+    runs-on: ubuntu-18.04
+    steps:
+      - uses: actions/foo@master
