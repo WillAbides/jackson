@@ -3,5 +3,5 @@ description: 'Does something. I have not decided what yet'
 author: WillAbides
 runs:
   using: docker
-  image: 'willabides/deleteme/octo-cli:0.1.0'
+  image: 'willabides/deleteme/octo-cli@0.1.0'
   args: ['--help']
