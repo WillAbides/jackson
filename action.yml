@@ -1,0 +1,7 @@
+name: 'jackson'
+description: 'Does something. I have not decided what yet'
+author: WillAbides
+runs:
+  using: docker
+  image: 'Dockerfile'
+  args: ['--help']
