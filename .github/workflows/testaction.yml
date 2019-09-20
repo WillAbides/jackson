@@ -5,4 +5,7 @@ jobs:
     name: ddddd
     runs-on: ubuntu-18.04
     steps:
+      - uses: actions/checkout@v1
+        with:
+          fetch-depth: 1
       - uses: ./.github/actions/foo
