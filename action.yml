@@ -3,5 +3,5 @@ description: 'Does something. I have not decided what yet'
 author: WillAbides
 runs:
   using: docker
-  image: 'Dockerfile'
+  image: 'docker://octocli/octo-cli:latest'
   args: ['--help']
